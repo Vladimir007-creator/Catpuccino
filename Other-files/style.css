@@ -1,0 +1,136 @@
+html {
+    background-color: rgba(255, 241, 207, 0.93);
+    font-family: Georgia, serif;
+	font-size: 16px;
+	min-width: 280px;
+	text-align: center;
+}
+
+h1 {
+	font-size: clamp(1.7rem, 3.2vw, 5rem);
+    width: fit-content;
+    margin: 15px auto;
+    background-color: rgb(75, 50, 0);
+    color:rgb(255, 194, 73);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2 {
+	font-size: clamp(1.3rem, 2.2vw, 5rem);
+    width: fit-content;
+    margin: 15px auto;
+    color:rgb(100, 67, 2);
+    text-decoration: underline dashed;
+}
+
+h3 {
+	font-size: clamp(1rem, 1.7vw, 4.5rem);
+    color:rgb(100, 67, 2);
+}
+
+p {
+    font-size: clamp(0.8rem, 1.4vw, 5rem);
+    color:rgb(100, 67, 2);
+}
+
+a {
+    font-size: clamp(1rem, 1.7vw, 5rem);
+}
+
+a:link {
+    color: rgb(98, 56, 2);
+}
+
+a:visited {
+    color: rgb(98, 56, 2);
+}
+
+a:hover {
+    color: rgb(4, 3, 0);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(200, 50, 50);
+    text-decoration: none;
+}
+
+.Logo {
+    z-index: 10;
+    width: clamp(3rem, 12vw, 10rem);
+    height: clamp(3rem, 12vw, 10rem);
+    position: fixed;
+    top: 7px; 
+    left: 7px; 
+    border-radius: 10px;
+}
+
+#Tabs {
+    background-color: rgb(255, 194, 73);
+    color: rgb(106, 71, 0);
+    width: fit-content; 
+    display: flex;
+    list-style: none;
+    gap: 3vw;     
+    padding: 0;
+    margin: 0 auto;             
+    text-align: center; 
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.SleepinCat {
+    width: clamp(15rem, 95vw, 100rem);
+    height: clamp(12rem, 60vw, 85rem);
+    border-radius: 20px;
+}
+
+.TypesOfCats {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap; 
+    gap: clamp(2rem, 3vw, 10rem);
+    list-style: none;
+	flex: 1 1 300px; 
+    align-items: center; 
+    flex-direction: column;
+	padding-inline-start: 0px;
+}
+
+.TypesOfCats img {
+    width: clamp(9rem, 45vw, 60rem);
+    height: clamp(11rem, 50vw, 70rem);
+    border-radius: 15px;
+    object-fit: cover;
+	border: rgb(255, 170, 50) 3px solid;
+}
+
+.Blockquote {
+    border: rgba(205, 138, 2, 0.71) 3px solid;
+    color: rgb(100, 67, 2);
+    border-radius: 15px;
+    padding-bottom: 9px;
+    margin-top: 7px;
+}
+
+hr {
+    width: 75%;
+    margin: 25px auto;
+    border: 1px solid rgb(154, 103, 120);
+}
+
+footer ul {
+    line-height: 2rem;
+    list-style: none;
+	padding-inline-start: 0px;
+}
+
+
+@media (max-width: 545px) {
+	
+	.Logo {
+		left: 3px;
+		top: 35px;
+	}
+}
